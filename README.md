@@ -31,15 +31,15 @@ The recommended way to set up the environment is by using `conda` to ensure all 
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
-    cd <your-repository-name>
+    git clone (https://github.com/joerloeffler/renumber_antibodies.git)
+    cd renumber_antibodies
     ```
 
 2.  **Create and activate a Conda environment:**
-    This command creates a new environment named `antibody_env` with Python 3.9.
+    This command creates a new environment named `renumAB` with Python 3.9.
     ```bash
-    conda create -n antibody_env python=3.9
-    conda activate antibody_env
+    conda create -n renumAB python=3.9
+    conda activate renumAB
     ```
 
 3.  **Install BioPython:**
@@ -64,4 +64,4 @@ Run the script from your terminal, providing the path to your input PDB file.
 This will process the PDB file using the default **Kabat** numbering scheme.
 
 ```bash
-python renumber_pdb.py /path/to/your/antibody.pdb
+python renumber.py /path/to/your/antibody.pdb
